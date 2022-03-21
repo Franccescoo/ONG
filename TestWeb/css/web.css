@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Pacifico&family=Poppins:ital@1&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -31,10 +32,11 @@ https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-fac
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Pacifico', cursive;
 }
 
 /* Change color on hover */
@@ -59,10 +61,11 @@ https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-fac
 }
 
 /* Fake image */
-.fakeimg {
-    background-color: #aaa;
+.integrantes {
+    background-color: rgb(247, 244, 244);
     width: 100%;
-    padding: 20px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Add a card effect for articles */
@@ -136,3 +139,29 @@ https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-fac
   .button2:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   }
+
+.nav-social{
+    display: flex;
+    justify-content: center;
+}
+.nav-social__item{
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.nav-social__item:first-child{
+    background-color: #3b5998;
+}
+.nav-social__item:nth-child(2){
+    background-color: #1da1f2;
+}
+.nav-social__item:nth-child(3){
+    background-color: #DD2A7B;
+}
+.nav-social__item i{
+    color: white;
+}
