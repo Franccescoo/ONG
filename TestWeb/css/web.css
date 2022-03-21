@@ -55,7 +55,6 @@ https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-fac
     float: left;
     width: 25%;
     background: url(https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-face-isolated-background-vector-id910758872?k=20&m=910758872&s=170667a&w=0&h=brnANBSJBcXQkzjZKI_JEhOuFyzb-DjcflIQj214ALg=);
-
     padding-left: 20px;
 }
 
@@ -114,7 +113,6 @@ https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-fac
 }
 .logo{
     background-image: url(https://www.vozanimalperu.com/images/logo_small.png);
-    -webkit-box-reflect: right;
 }
 .perrobanner{
     display: none;
