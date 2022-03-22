@@ -12,7 +12,7 @@
   .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    background: url(../img/gatos_volando.jpg);
   }
   
   .header h1 {
@@ -22,17 +22,18 @@
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #00bfb3;
   }
   
   /* Style the topnav links */
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Pacifico', cursive;
   }
   
   /* Change color on hover */
@@ -52,7 +53,7 @@
   .rightcolumn {
     float: left;
     width: 25%;
-    background-image: url("https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-face-isolated-background-vector-id910758872?k=20&m=910758872&s=170667a&w=0&h=brnANBSJBcXQkzjZKI_JEhOuFyzb-DjcflIQj214ALg=");
+    background-image: url(https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-face-isolated-background-vector-id910758872?k=20&m=910758872&s=170667a&w=0&h=brnANBSJBcXQkzjZKI_JEhOuFyzb-DjcflIQj214ALg=);
     padding-left: 20px;
   }
   
@@ -63,9 +64,15 @@
     padding: 20px;
   }
   
+  .integrantes {
+    background-color: rgb(247, 244, 244);
+    width: 100%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
   /* Add a card effect for articles */
   .card {
-    background-color: white;
+    background-color: rgb(247, 244, 244);
     padding: 20px;
     margin-top: 20px;
   }
@@ -75,14 +82,6 @@
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -100,3 +99,39 @@
       width: 100%;
     }
   }
+
+.nav-social{
+    display: flex;
+    justify-content: center;
+}
+.nav-social__item{
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.nav-social__item:first-child{
+    background-color: #3b5998;
+}
+.nav-social__item:nth-child(2){
+    background-color: #1da1f2;
+}
+.nav-social__item:nth-child(3){
+    background-color: #DD2A7B;
+}
+.nav-social__item i{
+    color: white;
+}
+.logo{
+    display: block;
+    background-image: url(../img/Logo_nuevo.png);
+    background-size: 100% 100%;
+    margin: 20px;
+    height:140px;
+    margin-right: 90px;
+    margin-left:  90px;
+
+}
