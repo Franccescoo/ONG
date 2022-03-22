@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Pacifico&family=Poppins:ital@1&display=swap%27');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+	width: 500px;
+    height: auto;
+	margin:5px auto 0;
+	overflow: hidden;
+	border-radius: 10px
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	
+	animation: slide 35s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+}
+.Nombre_Lucy{
+	margin-bottom: 20px;
+	font-family: Arial;
+}
+.Descripcion_lucy{
+	margin-top: 15px;
+}
+.fuente_lucy{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}

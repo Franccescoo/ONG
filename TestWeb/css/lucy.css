@@ -5,7 +5,7 @@
   body {
     font-family: Arial;
     padding: 10px;
-    background: #f1f1f1;
+    background-image: url("https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-face-isolated-background-vector-id910758872?k=20&m=910758872&s=170667a&w=0&h=brnANBSJBcXQkzjZKI_JEhOuFyzb-DjcflIQj214ALg=");
   }
   
   /* Header/Blog Title */
@@ -52,7 +52,7 @@
   .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    background-image: url("https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-face-isolated-background-vector-id910758872?k=20&m=910758872&s=170667a&w=0&h=brnANBSJBcXQkzjZKI_JEhOuFyzb-DjcflIQj214ALg=");
     padding-left: 20px;
   }
   
