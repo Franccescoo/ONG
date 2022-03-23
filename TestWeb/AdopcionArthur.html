@@ -1,200 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* BOTTON */
-.button {
-  background-color: #00bfb2a4; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-
-
-
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: url(https://www.tqpets.com.ec/wp-content/uploads/2018/10/perro-acepte-gato-banner-interno.jpg);
-  background-size: 100% 100%;
-  opacity: 0.8;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #00bfb3
-;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-.fakeimgarthur {
-  background-color: #00bfb3;
-  width: 23%;
-  padding: 20px;
-}
-.fakeimgperro {
-  background-color: #00bfb3;
-  width: 23%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
-<title>ADOPCION - AYUDA A UN PELUDO</title>
+    <link rel="shortcut icon" href="https://svgsilh.com/svg/155322.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>ADOPCION - AYUDA A UN PELUDO</title>
+    <link rel="stylesheet" href="css/ayumu.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
 <div class="header">
-  <h1 style="color: #00bfb3;">Perros</h1>
+  <h1>ONG - AYUDA A UN PELUDO</h1>
 </div>
 
 <div class="topnav">
   <a href="web.html">Menu Inicio</a>
-  <a href="Menuperro.html">Caninos</a>
+  <a href="MenuCanino.html">Caninos</a>
   <a href="Menugato.html">Felinos</a>
-  <a href="Menuperro.html" style="float:right">Volver</a>
+  <a href="MenuCanino.html" style="float:right">Volver</a>
 </div>
-    <!--ARTHUR-->
-<div class="row">
-  
-    <div class="card">
-        <center><h2>Arthur</h2></center>
-        <center><table border="0" style="background-color: #00bfb3; border-radius: 10px;">
-        <thead>
-            <tr>
-                <th>Foto Perro</th>
-                <th>Datos</th>
-            </tr>
-        </thead>
-        <tr>
-            <td><div class="fakeimgarthur" style="height:220px;"><img src="img/Arthur.png" alt="No se ve imagen"></div></td>
-            <td>
-                <p style="white-space: pre">
-                    <strong>Número de Chip:</strong> 625384627384657
-                    <strong>Nombre:</strong> Arthur
-                    <strong>Edad:</strong> 8 Meses
-                    <strong>Tamaño:</strong> Pequeño
-                    <strong>Sexo:</strong> Macho
-                    <strong>Esterilizado:</strong> No</p></td>
-        </tr>
-        </table>
-    </center>
-    <CENTER>
-        <h3 style="font-size: 1rem">
-            Arthur espera ansias a conocer a su nueva familia, <br>
-            Para confirmar la adopcion presente el siguiente codigo en la sede de Ayuda A Un Peludo en Huechuraba, <br>
-            el pago se realizara de manera presencial.<br>
-        </h3>
-        <img src="img/QR.png" height="250" alt="Imagen no encontrada">
-    </CENTER>
-    </div>
- 
-      <!--TOBY-->
 
-      
-    
-   
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+
+      <center><h2 class="Nombre_Lucy"></h2></center>
+
+      <div class="Descripcion_lucy">
+        <p class="fuente_lucy">Como es Arthur:</p>
+        <p class="fuente_lucy">Es un Perro joven y energetico, extremadadamente curioso y amoroso
+            Nosotros pensamos que a nuestro pequeño amigo le encantaría estar en una familia en la cual jueguen mucho con él.
+           </p>
+      </div>
+      <div class="slider-frame">
+        <ul>
+            <li><img src="img/Arthur.png"></li>
+            <li><img src="img/Arthur.png"></li>
+            <li><img src="img/Arthur.png"></li>
+        </ul>
+      </div>
+
+      <p class="fuente_lucy">Hoy en día Arthur está en una listo para encontrar un hogar con una familia que lo cuide y le den todo el cariño que él merece.
+        Si deseas llevar la adopción a cabo debe dirigirse de manera presencial a nuestra fundación ubicada en la región metropolitana.</p>
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Sobre Nosotros</h2>
+      <div class="logo" style="height:140px;"></div>
+      <p>Somos una organización sin fines de lucro que fomenta la tenencia y adopción responsable. 
+        <strong>Rescatamos, rehabilitamos y reubicamos</strong> perros y gatos abandonados en hogares comprometidos y que los consideren un miembro más de la familia.</P></p>
+    </div>
+    <div class="card">
+      <h3>Integrantes
+      </h3>
+      <div class="integrantes"><p>Franccesco Artuso</p></div>
+      <div class="integrantes"><p>Geraldine Bastias</p></div>
+      <div class="integrantes"><p>Alexander Lara</p></div>
+      <div class="integrantes"><p>Matias Peñaloza</p></div>
+    </div>
+    <div class="card">
+      <h3>Nuestras Redes Sociales</h3>
+      <div class="nav-social">
+        <a href="https://www.facebook.com" target="_blank" class="nav-social__item"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank" class="nav-social__item"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="nav-social__item"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    </div>
+  </div>
+</div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="img/Logo_nuevo_blanco.png" alt="Logo de la Compañia">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Somos una organización sin fines de lucro que fomenta la tenencia y adopción responsable.</p>
+            <p><strong>Rescatamos, rehabilitamos y reubicamos</strong> perros y gatos abandonados en hogares comprometidos y que los consideren un miembro más de la familia.</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+              <a href="https://www.facebook.com" target="_blank" class="nav-social__item"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com" target="_blank" class="nav-social__item"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com" target="_blank" class="nav-social__item"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b> ONG - AYUDA A UN PELUDO</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
 </div>
 
 </body>
 </html>
-
-
