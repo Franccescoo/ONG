@@ -93,7 +93,7 @@ https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-fac
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 1050px) {
 .topnav a {
     float: none;
     width: 100%;
