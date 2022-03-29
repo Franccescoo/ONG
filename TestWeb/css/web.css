@@ -112,10 +112,9 @@ https://media.istockphoto.com/vectors/cat-seamless-pattern-paw-vector-kitten-fac
     display: block;
     background-image: url(../img/Logo_nuevo.png);
     background-size: 100% 100%;
-    margin: 20px;
-    height:140px;
-    margin-right: 90px;
-    margin-left:  90px;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
 }
 .perrobanner{
     display: none;

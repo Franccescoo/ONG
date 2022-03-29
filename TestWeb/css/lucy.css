@@ -126,12 +126,10 @@
     color: white;
 }
 .logo{
-    display: block;
-    background-image: url(../img/Logo_nuevo.png);
-    background-size: 100% 100%;
-    margin: 20px;
-    height:140px;
-    margin-right: 90px;
-    margin-left:  90px;
-
+  display: block;
+  background-image: url(../img/Logo_nuevo.png);
+  background-size: 100% 100%;
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
 }
